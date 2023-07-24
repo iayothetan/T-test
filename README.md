@@ -5,7 +5,7 @@ T-test is the most popular statistical test which is used to compare groups.
 
 In this case we will create raw dataset with outliers and NA's, then we'll clear it and make some checks to be sure that this T-test is the right choise.
 
-We will check various homogenius with Levene's or Fligner-Killeen's test, normality of sample means distribution with Shapiro-Wilk test:
+We will check homogeneity of variance with Levene's or Fligner-Killeen's test, normality of sample means distribution with Shapiro-Wilk test:
 
 <img src ="sample_means.png"></img>
 
