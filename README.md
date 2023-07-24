@@ -1,4 +1,6 @@
 # T-test (Welch, Student)
+This is my first part of future release of ultimate AB-test calculator, which will include bootstrap and non-parametric approach.
+
 T-test is the most popular statistical test which is used to compare groups.
 
 In this case we will create raw dataset with outliers and NA's, then we'll clear it and make some checks to be sure that this T-test is the right choise.
