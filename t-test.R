@@ -73,10 +73,11 @@ curve(dnorm(x, mean = mean(group_b_sample_means), sd = sd(group_b_sample_means))
 
 
 # Выбираем t-тест
+# var.equal можно пропустить, тогда R выберет использовать ли поправку, самостоятельно
 # Расчет t-теста Стьюдента
 t.test(money ~ var, data = df, var.equal = T)
 
-# Расчет t-теста Уэлча
+# Расчет t-теста с поправкой Уэлча
 t.test(money ~ var, data = df, var.equal = F)
 
 
